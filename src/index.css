@@ -1,13 +1,280 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  padding: 0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body{
+
+  color: #fff;
+
+  
+}
+
+
+
+.landing .l-words{
+
+  padding: 15px;
+  margin: 3px 0;
+}
+
+
+.landing{
+  background-position:center center;
+  background-repeat: none;
+
+  background-size: cover;
+  transition: .5s;
+}
+
+.landing .row{
+  height: 100vh;
+  min-height: 800px;
+}
+
+
+.landing  .home-btn{
+  padding: 25px;
+  color: #fff;
+  background: #222;
+}
+
+
+
+.landing h1{
+  font-size: 3.5rem;
+  color: #EE1B24;
+  word-spacing:6px;
+  font-weight:500;
+  
+}
+
+.landing .word-span{
+  margin: 7px auto;
+ 
+  padding:2px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.landing .l-btn{
+  padding: 12px;
+  color: #fff;
+  border: 1px solid #EE1B24;
+  border-radius: 0px;
+  margin-top: 4px;
+}
+
+
+.landing .l-btn:hover{
+  background: #EE1B24;
+}
+
+.landing .cv-btn{
+  padding: 12px;
+  color: #fff;
+  border: 1px solid #EE1B24;
+  border-radius: 0px;
+  background: #EE1B24;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+
+.landing .cv-btn:hover{
+  background: transparent;
+}
+
+
+.landing .l-words h2{
+  color: #222;
+  font-size: 2.2rem;
+}
+
+.l-words p{
+  color: #222;
+  font-size: 1.1rem;
+}
+
+.landing img{
+  border: 0px solid transparent;
+  transition: .5s;
+}
+
+/*about*/
+
+.about{
+  padding: 60px 0;
+  background-color: #111;
+  color: #fff;
+}
+
+.about img{
+  border: 0px solid transparent;
+  width: 70%;
+}
+
+.about .about-words{
+  font-size: 1.1rem;
+
+}
+
+.about h2{
+  color: #EE1B24;
+}
+
+.about .details h5{
+  color: #EE1B24;
+  font-size:1.6rem;
+  font-weight:350;
+}
+
+/*profile*/
+
+.profile{
+  padding: 60px 0;
+  background: #222;
+  color: #fff;
+}
+
+.profile h3 , .qualification h2 , .portfolio h2{
+  color: #EE1B24;
+  font-size:1.8rem;
+}
+
+.profile ul{
+  list-style: none;
+	margin-left: 0;
+
+}
+
+.profile ul li{
+	padding: 0 0 1.5rem 0;
+	margin-bottom: .6rem;
+}
+
+
+.profile ul li strong {
+	font-family: "poppins-bold", sans-serif;
+
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: .9rem;
+	line-height: 3rem;
+}
+.profile ul li span {
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: #fff;
+	font-size: 1.5rem;
+	line-height: 1;
+}
+
+.profile ul li span a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile .p-btn{
+  padding:15px 10px 15px 10px;
+  color: #fff;
+  border-radius:4px;
+  border:1px solid #EE1B24;
+  background: #EE1B24;
+}
+
+.qualification{
+  padding: 60px 0;
+  color: #fff;
+  background: #111;
+}
+
+.qualification .qualification-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:6px;
+}
+
+.qualification .qualification-button {
+  font-size:1.3rem;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+
+
+}
+
+.qualification .qualification-button:hover {
+  color: var(--first-color);
+
+}
+.qualification .qualification-icon {
+  font-size: 1.8rem;
+  margin-right: 10px;
+
+}
+
+.qualification .qualification-data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification .qualification-title {
+  font-size:1rem;
+  font-weight:400;
+}
+
+.qualification .qualification-subtitle {
+  display: inline-block;
+  font-size: .9rem;
+  margin-bottom:9px;
+
+}
+
+.qualification .qualification-calender .fa-calendar {
+  font-size: .9rem;
+  color:#EE1B24;
+  margin-right: 8px;
+ 
+}
+
+.qualification .qualification-rounder {
+  display: inline-block;
+  width: 13px;
+height: 13px;
+background-color: #EE1B24;
+border-radius: 50%;   
+}
+
+.qualification .qualification-line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #EE1B24;
+  transform: translate(6px, -7px);
+  
+}
+
+.qualification .qualification [data-content] {
+  display: none;
+}
+
+.qualification .qualification-active[data-content] {
+  display: block;
+}
+
+.qualification .qualification-button .qualification-active {
+  color: #EE1B24;
+}
+
+.portfolio {
+  padding: 60px 0;
+  color: #fff;
+  background: #111;
 }
