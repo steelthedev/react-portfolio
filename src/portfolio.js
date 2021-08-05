@@ -42,14 +42,14 @@ const Portfolio = () => {
                     </div>
 
                     
-                    <div className="col-lg-4 col-md-4 m-b-120 mt-2" data-aos="fade-down">
+                    <div className="col-lg-4 col-md-4 m-b-120 mt-2" data-aos="fade-right">
                             <a href={p1}>
                             <img src={p1} alt="web development" width="100%" />
                             </a>
                     </div>
 
                     
-                    <div className="col-lg-4 col-md-4 m-b-120 mt-2" data-aos="fade-left">
+                    <div className="col-lg-4 col-md-4 m-b-120 mt-2" data-aos="fade-up">
                             <a href={p1}>
                             <img src={p1} alt="web development" width="100%" />
                             </a>
