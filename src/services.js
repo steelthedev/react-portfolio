@@ -60,7 +60,7 @@ useEffect(()=>{
                         </div>
                 </div>
 
-                <div className="col-md-4 col-lg-4 mt-4 mb-5  text-center " data-aos="fade-left">
+                <div className="col-md-4 col-lg-4 mt-4 mb-5  text-center " data-aos="fade-down">
                         <div className="work-single">
                             <div className="work-icon">
                                 <i className="fa fa-tags"></i>

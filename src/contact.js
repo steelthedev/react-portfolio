@@ -54,7 +54,7 @@ const Contact = () => {
                                
                             </div>
 
-                            <div className="col-6 ">
+                            <div className="col-6 d-none">
                                 <div className="contact-footer">
                                 <i className="fa fa-phone"></i>
                                 <div>

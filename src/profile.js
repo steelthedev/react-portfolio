@@ -26,7 +26,7 @@ const Profile = () => {
                                 </ul>
 	   		                </div>
 
-                               <div className="col-lg-6 text-center" data-aos="fade-left">
+                               <div className="col-lg-6 text-center" data-aos="fade-up">
                                         <h3>Skills</h3>
                                 <ul >
                                 <li>
