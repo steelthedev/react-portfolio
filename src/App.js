@@ -1,4 +1,4 @@
-import "animate.css/animate.min.css";
+
 import './App.css';
 import NavBar from './navbar';
 import Landing from './landing';

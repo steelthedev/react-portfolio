@@ -1,6 +1,6 @@
 const Contact = () => {
     return ( 
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-12 col-lg-8 text-center">
@@ -36,6 +36,46 @@ const Contact = () => {
                                 </div>
                             </div>
                         </form>
+                    </div>
+
+                    <div className="col-md-12 col-lg-8 text-center">
+                        <div className="row justify-content-center mt-5 pt-3 mb-4">
+                            <div className="col-6 text-center">
+                                <div className="contact-footer">
+                                <i className="fa fa-inbox"></i>
+                                <h5>
+                                    EMAIL ME AT
+                                </h5>
+                               <ul>
+                                   <li>akinwumikaliyanu@gmail.com</li>
+                                   <li>omoakinwumi@outlook.com</li>
+                               </ul>
+                                </div>
+                               
+                            </div>
+
+                            <div className="col-6 ">
+                                <div className="contact-footer">
+                                <i className="fa fa-phone"></i>
+                                <div>
+                                <h5>
+                                    CALL ME ON
+                                </h5>
+                                </div>
+                                
+                               <ul className="">
+                                   <li>+234 70 654 873 42 </li>
+                                   <li>+234 70 686 248 14</li>
+                               </ul>
+                                </div>
+                            </div>
+
+                            <div className="footer">
+                                <div className="col-md-12 col-lg-12 mt-5">
+                                    <span>© Copyright 2021 | Steelthedev</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

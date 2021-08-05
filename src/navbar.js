@@ -19,7 +19,9 @@ const NavBar = () => {
               <Nav.Link href="#home" className="navlink">Home</Nav.Link>
               <Nav.Link href="#about" className="navlink">About</Nav.Link>
               <Nav.Link href="#profile" className="navlink">Profile</Nav.Link>
+              <Nav.Link href="#portfolio" className="navlink">Portfolio</Nav.Link>
               <Nav.Link href="#services" className="navlink">Services</Nav.Link>
+              <Nav.Link href="#contact" className="navlink">Contact</Nav.Link>
           </Nav>
           </Navbar.Collapse>
       </Navbar>

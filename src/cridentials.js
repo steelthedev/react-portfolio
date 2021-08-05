@@ -69,7 +69,7 @@ const Cridential = () => {
         <div class="qualification-data">
             <div>
                 <h3 class="qualification-title">
-                   Junior  Backend Developer 
+                   Senior  Backend Developer 
                 </h3>
                 <span class="qualification-subtitle">
                     FIESULEC , Nigeria

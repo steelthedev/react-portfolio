@@ -21,7 +21,7 @@ const Landing = () => {
                 <span className="word-span">| FULL STACK DEVELOPER </span>
                 <span className="word-span">| PYTHON DEVELOPER |</span>
                     <div className="buttons mt-3 ">
-                <button className="btn btn-outline-white l-btn">Hire Me</button>
+                <a className="btn btn-outline-white l-btn shadow-none" href="#contact">Hire Me</a>
                 <button className="btn btn-outline-white  cv-btn">Download Cv</button>
                     </div>
                 

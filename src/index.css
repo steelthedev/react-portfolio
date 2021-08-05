@@ -358,3 +358,34 @@ border-radius: 50%;
   color: #fff;
   background: #f50057;
 }
+
+.contact .contact-footer{
+  padding: 10px;
+  margin: 10px;
+}
+
+.contact .contact-footer ul{
+  list-style: none;
+}
+
+.contact-footer ul li{
+  font-size: 1rem;
+  margin-right: 5px;
+  padding: 4px;
+
+}
+
+.contact-footer h5{
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+  justify-self: center;
+  margin-left: 15px;
+  color: #f50057;
+}
+
+.contact-footer .fa{
+  font-size: 3rem;
+  color: #EE1B24;
+  padding: 15px;
+  margin-left: 4px;
+}

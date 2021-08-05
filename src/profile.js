@@ -11,7 +11,7 @@ const Profile = () => {
                         <div className="row justify-content-center ">
                             <div className="col-lg-6 text-center" data-aos="fade-right">
                                 <h3>Profile</h3>
-	   			                <p>Experienced web developer with a history of deployign web applications which offers great 
+	   			                <p>Experienced web developer with a history of deploying web applications which offers great 
                                        backend , simplicity and responsiveness. 
                                 </p>
                                 <ul class="info-list">
