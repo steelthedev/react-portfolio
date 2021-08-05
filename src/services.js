@@ -23,7 +23,7 @@ useEffect(()=>{
 
                 <div className="row justify-content-center">
 
-                <div className="col-md-4 col-lg-4 mt-4 mb-5" data-aos="fade-right">
+                <div className="col-md-4 col-lg-4 mt-4 mb-5 text-center" data-aos="fade-right">
                         <div className="work-single">
                             <div className="work-icon">
                                 <i className="fa fa-tags"></i>
@@ -42,7 +42,7 @@ useEffect(()=>{
                 </div>
 
 
-                <div className="col-md-4 col-lg-4 mt-4 mb-5" data-aos="fade-up">
+                <div className="col-md-4 col-lg-4 mt-4 text-center mb-5" data-aos="fade-up">
                         <div className="work-single">
                             <div className="work-icon">
                                 <i className="fa fa-tags"></i>
@@ -60,7 +60,7 @@ useEffect(()=>{
                         </div>
                 </div>
 
-                <div className="col-md-4 col-lg-4 mt-4 mb-5" data-aos="fade-left">
+                <div className="col-md-4 col-lg-4 mt-4 mb-5  text-center " data-aos="fade-left">
                         <div className="work-single">
                             <div className="work-icon">
                                 <i className="fa fa-tags"></i>
