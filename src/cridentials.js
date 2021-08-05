@@ -1,7 +1,7 @@
 
 const Cridential = () => {
     return ( 
-        <section className="qualification">
+        <section className="qualification" id="qualification">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-md-12 text-center mt-3">

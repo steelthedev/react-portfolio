@@ -7,7 +7,7 @@ import heroimg from './img/hero1.jpg';
 const Landing = () => {
     return ( 
         <section 
-        className="landing" 
+        className="landing" id="home"
         style={{backgroundImage:`url(${heroimg})`}}>
 
             <div className="container">

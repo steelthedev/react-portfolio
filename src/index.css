@@ -143,7 +143,7 @@ body{
   color: #fff;
 }
 
-.profile h3 , .qualification h2 , .portfolio h2{
+.profile h3 , .qualification h2 , .portfolio h2 , .services h2 , .contact h2{
   color: #EE1B24;
   font-size:1.8rem;
 }
@@ -277,4 +277,84 @@ border-radius: 50%;
   padding: 60px 0;
   color: #fff;
   background: #111;
+}
+
+
+.services{
+  padding: 60px 0;
+  color: #fff;
+  background: #222;
+}
+
+.services .work-single{
+  padding: 30px;
+  background: #EE1B24;
+  margin: 20px;
+  height:100%;
+  border-radius:10px;
+}
+
+.services .work-single .work-icon{
+  font-size:30px;
+  padding-bottom: 5px;
+}
+
+.services .work-single .work-icon .fa{
+        border-radius: 50%;
+        border:7px solid #fff;
+        margin:10px 2px 10px ;
+        padding: 20px;
+}
+
+.services .work-single .work-icon .fa:hover{
+  background: #fff;
+  color: #EE1B24;
+}
+
+.services .work-single .work-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.services .work-single .work-words{
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight:200;
+  margin-top: 4px;
+}
+
+.contact{
+  color: #fff;
+  background: #111;
+  padding:60px 0;
+}
+
+.contact h6{
+  font-size: 1.3rem;
+  color: #f50057;
+}
+
+.contact .form-group{
+  padding: 15px;
+}
+
+.contact .form-group .form-control{
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 2px solid #EE1B24;
+}
+
+.contact .c-btn{
+  color: #fff;
+  background: #EE1B24;
+  width: 100%;
+  padding: 15px;
+}
+
+.contact .c-btn:hover{
+  color: #fff;
+  background: #f50057;
 }

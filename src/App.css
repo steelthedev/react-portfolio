@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-myDark{
+  background-color:#000;
+}
+
+.navbrand{
+  color: #EE1B24;
+  text-decoration: none;
+  margin-left:20px;
+  font-size:1.3rem;
+}
+
+.navbrand:hover{
+  color: #fff;
+}
+
+.mynav .navlink{
+  color: #EE1B24 !important;
+  margin:10px !important;
+
+}
+
+.navlink:hover{
+  color: #fff !important;
+}
+
+.collapse{
+  margin-right:25px !important;
+}
