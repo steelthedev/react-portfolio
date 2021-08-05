@@ -15,7 +15,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Navbar.Toggle className="toggle shadow-none"></Navbar.Toggle>
           <Navbar.Collapse className="collapse justify-content-center mr-5">
-          <Nav className=" ms-auto ml-auto">
+          <Nav className=" ms-auto text-center ml-auto">
               <Nav.Link href="#home" className="navlink">Home</Nav.Link>
               <Nav.Link href="#about" className="navlink">About</Nav.Link>
               <Nav.Link href="#profile" className="navlink">Profile</Nav.Link>
