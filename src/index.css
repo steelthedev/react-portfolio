@@ -4,6 +4,8 @@
   margin: 0;
   font-family: "Quicksand";
   padding: 0;
+ 
+  
 
 }
 
@@ -11,6 +13,7 @@
 body{
 
   color: #fff;
+  overflow-x: hidden;
 
   
 }

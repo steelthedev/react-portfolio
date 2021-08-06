@@ -19,9 +19,11 @@ const Profile = () => {
                                         <strong>Fullname:</strong>
                                         <span>Akinwumi Iyanuoluwa Ayomiposi</span>
                                     </li>
+
                                     <li>
-                                        <strong>Website:</strong>
-                                        <span><a href="index.html">steelthedev.github.io</a></span>
+                                        <strong>Contact:</strong>
+                                        <span>omoakinwumi@outlook.com</span>
+                                        <span className="mt-2">+234 70 654 873 42</span>
                                     </li>
                                 </ul>
 	   		                </div>
